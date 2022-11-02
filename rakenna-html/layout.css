@@ -1,0 +1,66 @@
+body {
+    
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-seri
+    
+}
+
+header{
+    border: 1px dotted black;
+    padding: 10px;
+    background-color: rgb(0, 110, 255)
+}
+
+section{
+    border: 1px dotted black;
+    padding: 10px;
+    background-color: yellow
+}
+
+footer{
+    padding: 1rem;
+    border: 1px dotted black;
+    padding: 10px;
+    
+}
+
+figure{
+    display: block;
+}
+
+img{
+   max-width: 100%;
+}
+
+h1{
+    font-size: 2rem;
+    padding-bottom: 5px;
+    
+}
+
+.clock {
+    position: fixed;
+    top: 42%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: black;
+    letter-spacing: 1px; 
+    
+   
+
+
+}
+
+@media screen and (min-width: 426px) {
+    body {
+      
+    }
+
+    section{
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+
+    
+   }
